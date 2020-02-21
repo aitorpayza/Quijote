@@ -3,5 +3,6 @@ function [ out ] = estructura( in )
 %
 %   Participantes:
 %       - Andres Mateo Gabin
+%       - Aitor Pitarch Ayza
 
 end function
