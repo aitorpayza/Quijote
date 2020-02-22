@@ -1,7 +1,7 @@
 function [ out ] = estructura( in )
 % ESTRUCTURA calcula las dimensiones del larguero a partir de las cargas
 
-%% Sección de la estructura: Se presupone un tubo rectangular simétrico respecto ambos ejes Xg y Yg de dimensiones nominales a,b y t. Siendo a la altura del larguero b la anchura y t el espesor de la pared. Se supone las distancias desde la línea media del perfil y se desprecian los efectos del espesor.
+%% Sección de la estructura: Se presupone un tubo rectangular simétrico respecto ambos ejes Xg y Yg de dimensiones nominales a,b y t. Siendo a la altura del larguero, b la anchura y t el espesor de la pared. Se suponen las distancias desde la línea media del perfil y se desprecian los efectos del espesor.
 
 %%% Variables
 
