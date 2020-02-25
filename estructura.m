@@ -16,9 +16,15 @@ Ix = (a^(2)*b*t)/2 + (a^(3)*t)/6;
 Iy = (b^(2)*a*t)/2 + (b^(3)*t)/6;
 A = 2*(b*t + a*t);
 
-%% Distribución de carga aerodinámica y peso
+%% Distribución de carga aerodinámica y peso // Primera aproximación CARGA CTE y sin influencia del peso
 
 syms s
+
+P_z = -1. ; % [N/m]
+
+Sy_z = int(P_z,s,[0,s]);
+
+Mx_z= int(Sy_z,s,[0,s]);
 
 
 %   Participantes:
